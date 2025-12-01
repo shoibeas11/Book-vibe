@@ -1,10 +1,11 @@
 
-import { NavLink } from 'react-router';
+import { NavLink } from "react-router";
+
 
 const Nav = () => {
     return (
         <div>
-            <div className="navbar bg-base-100 shadow-sm justify-around fixed z-10">
+            <div className="navbar bg-base-100 justify-around fixed z-10 ">
                 <div className="">
                     <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -13,18 +14,21 @@ const Nav = () => {
                     <ul
                         tabIndex="-1"
                         className=" text-gray-500 font-semibold menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                        <NavLink to='/' ><a>Home</a></NavLink>
-                        <NavLink to='/listedBooks' ><a>Listed Books</a></NavLink>
-                        <NavLink to='/readPages' ><a>Pages to read</a></NavLink>
+                        
+
+                        <NavLink to='/' className={({isActive}) => isActive? 'text-green-500 px-4 py-2 border-2 border-green-500 rounded-lg mb-4': 'text-gray-500'}>Home</NavLink>
+                        <NavLink to='/listedBooks' className={({isActive}) => isActive? 'text-green-500 px-4 py-2 border-2 border-green-500 rounded-lg': 'text-gray-500'}>Listed Books</NavLink>
+                        <NavLink to='/readPages' className={({isActive}) => isActive? 'text-green-500 px-4 py-2 border-2 border-green-500 rounded-lg': 'text-gray-500'} >Pages to read</NavLink>
+
                     </ul>
                     </div>
                     <a className="btn btn-ghost text-2xl font-bold">Book Vibe</a>
                 </div>
                 <div className=" hidden lg:flex">
                     <ul className=" gap-6 text-gray-500 font-semibold menu menu-horizontal px-1">
-                        <NavLink to='/' ><a>Home</a></NavLink>
-                        <NavLink to='/listedBooks' ><a>Listed Books</a></NavLink>
-                        <NavLink to='/readPages' ><a>Pages to read</a></NavLink>
+                        <NavLink to='/' className={({isActive}) => isActive? 'text-green-500 px-4 py-2 border-2 border-green-500 rounded-lg': 'text-gray-500'}>Home</NavLink>
+                        <NavLink to='/listedBooks' className={({isActive}) => isActive? 'text-green-500 px-4 py-2 border-2 border-green-500 rounded-lg': 'text-gray-500'}>Listed Books</NavLink>
+                        <NavLink to='/readPages' className={({isActive}) => isActive? 'text-green-500 px-4 py-2 border-2 border-green-500 rounded-lg': 'text-gray-500'} >Pages to read</NavLink>
                     </ul>
                 </div>
                 <div>

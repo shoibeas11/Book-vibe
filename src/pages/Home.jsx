@@ -1,10 +1,13 @@
-import Nav from "../component/Nav";
-
+import { useLoaderData } from "react-router";
+import Banner from "../component/homePageComponent/Banner";
+import Books from "../component/homePageComponent/Books";
 
 const Home = () => {
+    const books = useLoaderData();
     return (
         <div>
-            <h1>Home page</h1>
+            <Banner></Banner>
+            <Books books={books}></Books>
         </div>
     );
 };

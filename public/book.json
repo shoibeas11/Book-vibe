@@ -1,0 +1,80 @@
+[
+  {
+    "bookId": 1,
+    "bookName": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "image": "https://i.ibb.co.com/SXcypKnp/Book.png",
+    "review": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias nihil hic optio veniam. Delectus iusto nostrum nulla. Ipsum quisquam modi perferendis et ad! Ut sunt vel quaerat nihil, rem saepe officia, unde reprehenderit inventore earum exercitationem et esse. Numquam rerum dolorem, debitis soluta corrupti corporis maxime doloribus sunt alias officiis laborum impedit. Veniam enim quisquam natus aliquam nihil, inventore maiores distinctio doloremque tenetur tempore ad. Ullam ducimus consectetur, dolore placeat vel modi blanditiis exercitationem tempora cum eaque consequatur, ",
+    "totalPages": 336,
+    "rating": 4.6,
+    "category": "Thriller",
+    "tags": ["Suspense", "Psychological", "Mystery"],
+    "publisher": "Celadon Books",
+    "yearOfPublishing": 2019
+  },
+  {
+    "bookId": 2,
+    "bookName": "Atomic Habits",
+    "author": "James Clear",
+    "image": "https://i.ibb.co.com/wZXCd306/Book1-1.png",
+    "review": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias nihil hic optio veniam. Delectus iusto nostrum nulla. Ipsum quisquam modi perferendis et ad! Ut sunt vel quaerat nihil, rem saepe officia, unde reprehenderit inventore earum exercitationem et esse. Numquam rerum dolorem, debitis soluta corrupti corporis maxime doloribus sunt alias officiis laborum impedit. Veniam enim quisquam natus aliquam nihil, inventore maiores distinctio doloremque tenetur tempore ad. Ullam ducimus consectetur, dolore placeat vel modi blanditiis exercitationem tempora cum eaque consequatur, ",
+    "totalPages": 320,
+    "rating": 4.8,
+    "category": "Self-Help",
+    "tags": ["Productivity", "Motivation", "Behavioral Psychology"],
+    "publisher": "Avery",
+    "yearOfPublishing": 2018
+  },
+  {
+    "bookId": 3,
+    "bookName": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "image": "https://i.ibb.co.com/pvM0pghW/Book2.png",
+    "review": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias nihil hic optio veniam. Delectus iusto nostrum nulla. Ipsum quisquam modi perferendis et ad! Ut sunt vel quaerat nihil, rem saepe officia, unde reprehenderit inventore earum exercitationem et esse. Numquam rerum dolorem, debitis soluta corrupti corporis maxime doloribus sunt alias officiis laborum impedit. Veniam enim quisquam natus aliquam nihil, inventore maiores distinctio doloremque tenetur tempore ad. Ullam ducimus consectetur, dolore placeat vel modi blanditiis exercitationem tempora cum eaque consequatur,",
+    "totalPages": 281,
+    "rating": 4.9,
+    "category": "Classic Literature",
+    "tags": ["Historical", "Drama", "Social Issues"],
+    "publisher": "J.B. Lippincott & Co.",
+    "yearOfPublishing": 1960
+  },
+  {
+    "bookId": 4,
+    "bookName": "The Alchemist",
+    "author": "Paulo Coelho",
+    "image": "https://i.ibb.co.com/4R1PSF07/Book3.png",
+    "review": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias nihil hic optio veniam. Delectus iusto nostrum nulla. Ipsum quisquam modi perferendis et ad! Ut sunt vel quaerat nihil, rem saepe officia, unde reprehenderit inventore earum exercitationem et esse. Numquam rerum dolorem, debitis soluta corrupti corporis maxime doloribus sunt alias officiis laborum impedit. Veniam enim quisquam natus aliquam nihil, inventore maiores distinctio doloremque tenetur tempore ad. Ullam ducimus consectetur, dolore placeat vel modi blanditiis exercitationem tempora cum eaque consequatur, ",
+    "totalPages": 208,
+    "rating": 4.7,
+    "category": "Fiction",
+    "tags": ["Philosophy", "Adventure", "Spiritual"],
+    "publisher": "HarperOne",
+    "yearOfPublishing": 1988
+  },
+  {
+    "bookId": 5,
+    "bookName": "1984",
+    "author": "George Orwell",
+    "image": "https://i.ibb.co.com/bRKLDLgj/Book4.png",
+    "review": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias nihil hic optio veniam. Delectus iusto nostrum nulla. Ipsum quisquam modi perferendis et ad! Ut sunt vel quaerat nihil, rem saepe officia, unde reprehenderit inventore earum exercitationem et esse. Numquam rerum dolorem, debitis soluta corrupti corporis maxime doloribus sunt alias officiis laborum impedit. Veniam enim quisquam natus aliquam nihil, inventore maiores distinctio doloremque tenetur tempore ad. Ullam ducimus consectetur, dolore placeat vel modi blanditiis exercitationem tempora cum eaque consequatur, ",
+    "totalPages": 328,
+    "rating": 4.8,
+    "category": "Dystopian",
+    "tags": ["Political", "Sci-Fi", "Classic"],
+    "publisher": "Secker & Warburg",
+    "yearOfPublishing": 1949
+  },
+  {
+    "bookId": 6,
+    "bookName": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "image": "https://i.ibb.co.com/4R1PSF07/Book3.png",
+    "review": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias nihil hic optio veniam. Delectus iusto nostrum nulla. Ipsum quisquam modi perferendis et ad! Ut sunt vel quaerat nihil, rem saepe officia, unde reprehenderit inventore earum exercitationem et esse. Numquam rerum dolorem, debitis soluta corrupti corporis maxime doloribus sunt alias officiis laborum impedit. Veniam enim quisquam natus aliquam nihil, inventore maiores distinctio doloremque tenetur tempore ad. Ullam ducimus consectetur, dolore placeat vel modi blanditiis exercitationem tempora cum eaque consequatur,",
+    "totalPages": 256,
+    "rating": 4.7,
+    "category": "Finance",
+    "tags": ["Money", "Mindset", "Economics"],
+    "publisher": "Harriman House",
+    "yearOfPublishing": 2020
+  }
+]
