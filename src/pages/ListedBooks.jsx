@@ -1,6 +1,11 @@
+import { useState } from "react";
+import { Link, Outlet } from "react-router";
 
 
 const ListedBooks = () => {
+
+    const [tabIndex, setTabIndex] = useState(0);
+
     return (
         <div className="flex flex-col items-center">
             <div className="mt-6 w-4/5 rounded-xl mx-auto bg-gray-100">
@@ -14,6 +19,16 @@ const ListedBooks = () => {
                     <li><a>Item 1</a></li>
                 </ul>
             </div>
+            <div className="w-4/5 mt-7">
+                <div role="tablist" className="tabs tabs-lift tabs-lg">
+                    <Link  onClick={ () => setTabIndex(0) } role="tab" className={`tab ${tabIndex === 0? 'tab-active': ''}`}>Read Books</Link>
+                    <Link to={`wishListPage`} onClick={ () => setTabIndex(1) } role="tab" className={`tab ${tabIndex === 1? 'tab-active': ''}`}>Wishlist Books</Link>
+                </div>
+                <div>
+                    <Outlet />
+                </div>
+            </div>
+            
         </div>
     );
 };
