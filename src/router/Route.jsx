@@ -1,11 +1,11 @@
 import { createBrowserRouter } from "react-router";
 import ListedBooks from '../pages/ListedBooks';
-import ReadPages from '../pages/ReadPages';
 import MainLayout from '../layout/MainLayout';
 import Home from '../pages/Home';
 import SingleBook from '../pages/SingleBook';
 import WishListPage from '../pages/WishListPage';
 import ReadPage from "../pages/ReadPage";
+import PageToRead from "../pages/PageToRead";
 
 
 export const router = createBrowserRouter([
@@ -38,8 +38,8 @@ export const router = createBrowserRouter([
         ]
       },
       {
-        path: "/readPages",
-        element: <ReadPages />
+        path: "/pageToRead",
+        element: <PageToRead />
       }
     ]
   },

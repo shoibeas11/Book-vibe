@@ -18,7 +18,7 @@ const Nav = () => {
 
                         <NavLink to='/' className={({isActive}) => isActive? 'text-green-500 px-4 py-2 border-2 border-green-500 rounded-lg mb-4': 'text-gray-500'}>Home</NavLink>
                         <NavLink to='/listedBooks' className={({isActive}) => isActive? 'text-green-500 px-4 py-2 border-2 border-green-500 rounded-lg': 'text-gray-500'}>Listed Books</NavLink>
-                        <NavLink to='/readPages' className={({isActive}) => isActive? 'text-green-500 px-4 py-2 border-2 border-green-500 rounded-lg': 'text-gray-500'} >Pages to read</NavLink>
+                        <NavLink to='/pageToRead' className={({isActive}) => isActive? 'text-green-500 px-4 py-2 border-2 border-green-500 rounded-lg': 'text-gray-500'} >Pages to read</NavLink>
 
                     </ul>
                     </div>
@@ -28,7 +28,7 @@ const Nav = () => {
                     <ul className=" gap-6 text-gray-500 font-semibold menu menu-horizontal px-1">
                         <NavLink to='/' className={({isActive}) => isActive? 'text-green-500 px-4 py-2 border-2 border-green-500 rounded-lg': 'text-gray-500'}>Home</NavLink>
                         <NavLink to='/listedBooks' className={({isActive}) => isActive? 'text-green-500 px-4 py-2 border-2 border-green-500 rounded-lg': 'text-gray-500'}>Listed Books</NavLink>
-                        <NavLink to='/readPages' className={({isActive}) => isActive? 'text-green-500 px-4 py-2 border-2 border-green-500 rounded-lg': 'text-gray-500'} >Pages to read</NavLink>
+                        <NavLink to='/pageToRead' className={({isActive}) => isActive? 'text-green-500 px-4 py-2 border-2 border-green-500 rounded-lg': 'text-gray-500'} >Pages to read</NavLink>
                     </ul>
                 </div>
                 <div>
